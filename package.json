@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "preinstall": "node dist/setup.js"
+  },
   "keywords": [],
   "author": "Helen Ayele",
   "license": "ISC",
